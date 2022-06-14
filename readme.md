@@ -19,13 +19,13 @@
 
 ...ferramenta que “ergue uma parede invisível” para proteger os usuários dos perigos cibernéticos. O firewall atua como um filtro entre um dispositivo e sua conexão com a internet ou com a rede externa. Na prática, decide o tráfego de rede que poderá passar ou será considerado perigoso. [FONTE](https://flowti.com.br/blog/o-que-e-firewall-e-qual-e-a-sua-importancia)
 
-### Configurações de Network no virtualbox
+## Configurações de Network no virtualbox
 
-arquivos > Host Network Manager > Criar
+Abra o virtual Box > arquivos > Host Network Manager > Criar
 
-### configurações das ISO
+## configurações das ISO
 
-**Endian Firewal**:
+### Endian Firewall
 
 Sistema operacional: Linux 2.4 (64-bit);
 
@@ -40,7 +40,7 @@ físico: Dinamicamente alocado.B
 
 Localização e tamanho de arquivo: 28G
 
-**Windows 7**:
+### Windows7
 
 Sistema operacional: Linux 2.4 (64-bit);
 
@@ -54,18 +54,22 @@ Armazenamento em disco rígido físico: Dinamicamente alocado.
 
 Localização e tamanho do arquivo: 20GB
 
-### Para configurarar os adaptadores de redes
+## Configurarar os adaptadores de redes
+
+### Windows7
 
 Selecione a máquina *WINDOWS7* > configurações > Rede > Adaptador 1
 
 ![Configuração do adaptador 1](./imagem/Captura%20de%20tela%20de%202022-06-14%2013-01-40.png)
+
+### Endian Firewall
 
 Selecione a máquina *ENDIAN FIREWALL* > configurações > rede > Adaptador 1 (DEPOIS DE CONCLUIR A CONFIGURAÇÃO DO ADAPTADOR 1) > Adaptador 2
 
 ![Configuração do adaptador 1 - ENDIAN FIREWALL](./imagem/endirefirewall-adap1.png)
 ![Configuração do adaptador 2 - ENDIAN FIREWALL](./imagem/endirefirewall-adap2.png)
 
-### Para configurar o Endian Firewall via Interface Web
+## Configurar o Endian Firewall via Interface Web
 
 Ligue as máquinas que acabamos de criar (Windows7 e EndianFirewall)
 
@@ -82,6 +86,6 @@ Ligue as máquinas que acabamos de criar (Windows7 e EndianFirewall)
 **Obs:** O Endereço IP é o mesmo do seu Endian Firewall.
 *link para acessar: https://seuIP:10443/*
 
-### links úteis
+## links úteis
 
 [Docs Endire Firewall](http://docs.endian.com/5.2/utm/first.html)
