@@ -54,7 +54,7 @@ Armazenamento em disco rígido físico: Dinamicamente alocado.
 
 Localização e tamanho do arquivo: 20GB
 
-## Configurarar os adaptadores de redes
+## Configurar os adaptadores de redes
 
 ### Windows7
 
